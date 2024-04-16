@@ -3,11 +3,12 @@ import React, { useState, useEffect } from 'react';
 import "./Horario.css";
 import datos from "../../data/datos.json"
 
-import Tablero from '../Tablero/Tablero';
-import Selectores from '../Selectores/Selectores';
+import TablaHorario from './TablaHorario/TablaHorario';
+import Selectores from './Selectores/Selectores';
+import {getColumn, getRow, getRowSpan} from './TablaHorario/TablaHorario';
+
 import SelectCurso from '../SelectCurso/SelectCurso';
 import Curso from '../Curso/Curso';
-import {getColumn, getRow, getRowSpan} from '../Tablero/Tablero';
 
 export default function Horario () {
     const [baseDeDatos, setBaseDeDatos] = useState(datos.cursos);
@@ -21,7 +22,7 @@ export default function Horario () {
     return (
         <>
             <div className='tablero-container'>
-                <Tablero 
+                <TablaHorario
                     cursos={cursos}
                 />
             </div>

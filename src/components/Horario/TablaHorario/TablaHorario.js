@@ -1,13 +1,13 @@
 import React from "react";
-import "./Tablero.css";
+import "./TablaHorario.css";
 
-import Hora from '../Hora/Hora.js';
-import Dia from '../Dia/Dia.js';
+import Hora from '../../Hora/Hora.js';
+import Dia from '../../Dia/Dia.js';
 
 export {getColumn, getRow, getRowSpan};
 
 
-export default function Tablero ({cursos}) {
+export default function TablaHorario ({cursos}) {
     return (
         <div className="tablero">
                 <div class="celda dias"></div>
