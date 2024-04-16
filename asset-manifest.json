@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Horario/static/css/main.5f8737a0.css",
+    "main.js": "/Horario/static/js/main.9a18c570.js",
+    "index.html": "/Horario/index.html",
+    "main.5f8737a0.css.map": "/Horario/static/css/main.5f8737a0.css.map",
+    "main.9a18c570.js.map": "/Horario/static/js/main.9a18c570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f8737a0.css",
+    "static/js/main.9a18c570.js"
+  ]
+}
