@@ -1,0 +1,41 @@
+{
+    "cursos": [
+        {
+            "id": "",
+            "nombre": "",
+            "color": "",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "",
+                            "horaIni": "",
+                            "horaFin": ""
+                        },
+                        {
+                            "dia": "",
+                            "horaIni": "",
+                            "horaFin": ""
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "",
+                            "horaIni": "",
+                            "horaFin": ""
+                        },
+                        {
+                            "dia": "",
+                            "horaIni": "",
+                            "horaFin": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

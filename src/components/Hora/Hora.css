@@ -1,0 +1,10 @@
+.horas {
+    background-color: lightgreen;
+    position: relative;
+  }
+  
+  /* Ajuste de posiciones de las horas */
+  .horas:nth-child(n+8) {
+    grid-column: 1; 
+  }
+  
