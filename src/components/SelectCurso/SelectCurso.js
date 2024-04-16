@@ -6,8 +6,8 @@ export default function SelectCurso ({curso, valorSeleccionado, handleChange}) {
         <div style={{backgroundColor: curso.color}}>
             <h3>{curso.nombre}</h3>
             <select value={valorSeleccionado} onChange={(event) => handleChange(event.target.value)}>
-                <option value="">Seleccione</option>
                 <OptionCurso curso={curso} />
+                <option value="">N.A.</option>
             </select>
         </div>
     );

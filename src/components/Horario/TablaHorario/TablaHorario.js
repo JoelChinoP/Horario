@@ -9,13 +9,35 @@ export {getColumn, getRow, getRowSpan};
 
 export default function TablaHorario ({cursos}) {
     return (
-        <div className="tablero">
+        <div className="tablero" 
+            style={{
+                gridTemplateColumns: `auto repeat(${dias.length}, 1fr)`,
+                gridTemplateRows: `auto repeat(${horasIni.length+1}, auto)`       
+            }}
+        >
                 <div class="celda dias"></div>
                 {renderDias()}
                 {renderHoras()}
+                {(renderGridItem())}
                 {cursos}
         </div>
     );
+}
+
+function renderGridItem() {
+    return dias.slice(0).flatMap((_, i) => (
+        horasIni.slice(0).map((_, k) => (
+            <div
+                className="grid-item"
+                style={{
+                    backgroundColor: "red",
+                    gridColumn: i + 2,
+                    gridRow: k + 2,
+                }}
+                key={`${i}-${k}`}
+            ></div>
+        ))
+    ));
 }
 
 function renderDias() {
