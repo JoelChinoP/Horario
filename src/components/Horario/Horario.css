@@ -2,15 +2,13 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    background-color: black;
     padding: .4vw;
 }
 
 .container-tablero {
-    width: 60%;
-    min-width: 1000px;
+    width: 80%;
 }
 
 .container-selectores {
-    width: 30%;
+    width: 50%;
 }

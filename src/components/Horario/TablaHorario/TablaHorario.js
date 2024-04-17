@@ -15,7 +15,7 @@ export default function TablaHorario ({cursos}) {
                 gridTemplateRows: `auto repeat(${horasIni.length+1}, auto)`       
             }}
         >
-                <div class="celda dias"></div>
+                <div class="celda"></div>
                 {renderDias()}
                 {renderHoras()}
                 {(renderGridItem())}
@@ -30,7 +30,8 @@ function renderGridItem() {
             <div
                 className="grid-item"
                 style={{
-                    backgroundColor: "red",
+                    backgroundColor: "#e2f0fb",
+                    borderRadius: ".2vw",
                     gridColumn: i + 2,
                     gridRow: k + 2,
                 }}

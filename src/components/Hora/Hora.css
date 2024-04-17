@@ -1,10 +1,20 @@
 .horas {
     background-color: lightgreen;
     position: relative;
+    padding-left: .2vw;
+    padding-right: .2vw;
+    color: #535353;
+    width: 6.5vw;
+    height: 1.5vw;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2vw;
   }
   
-  /* Ajuste de posiciones de las horas */
+/* Ajuste de posiciones de las horas */
   .horas:nth-child(n+8) {
     grid-column: 1; 
-  }
+}
   
