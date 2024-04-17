@@ -1,3 +1,16 @@
-.tablero-container {
-    padding: 50px;
+.container-horario {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: black;
+    padding: .4vw;
+}
+
+.container-tablero {
+    width: 60%;
+    min-width: 1000px;
+}
+
+.container-selectores {
+    width: 30%;
 }

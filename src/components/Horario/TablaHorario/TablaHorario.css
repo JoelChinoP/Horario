@@ -1,18 +1,15 @@
-.tablero {
+.container-tabla-horario {
     width: 80%;
     display: grid;
-    /*
-    grid-template-columns: auto repeat(5, 1fr);  Una columna para los días y 6 para las horas 
-    grid-template-rows: repeat(17, auto);  15 filas para las horas
-    gap: 2px; Espacio entre las celdas */
-    gap: 5px;
-  }
+    margin: 0 auto;
+    gap: .3vw;
+}
   
-  .celda {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-  }
+.celda {
+  padding: .4vw;
+  text-align: center;
+  font-weight: bold;
+}
 
 
 

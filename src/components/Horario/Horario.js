@@ -20,18 +20,18 @@ export default function Horario () {
     }, []);
 
     return (
-        <>
-            <div className='tablero-container'>
+        <div className='container-horario'>
+            <div className='container-tablero'>
                 <TablaHorario
                     cursos={cursos}
                 />
             </div>
-            <div>
+            <div className='container-selectores'>
                 <Selectores
                     selectores={selectores}
                 />
             </div>
-        </>
+        </div>
     );
 }
 

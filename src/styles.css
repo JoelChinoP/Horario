@@ -1,4 +1,11 @@
+@import '~typeface-roboto/index.css';
+
+/* style css */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
-  font-family: sans-serif;
   text-align: center;
 }

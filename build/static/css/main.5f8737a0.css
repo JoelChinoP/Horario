@@ -1,0 +1,2 @@
+.App{font-family:sans-serif;text-align:center}.tablero-container{padding:50px}.tablero{grid-gap:2px;display:grid;gap:2px;grid-template-columns:auto repeat(5,1fr);grid-template-rows:repeat(17,auto);width:80%}.celda{border:1px solid #000;padding:5px;text-align:center}.horas{background-color:#90ee90;position:relative}.horas:nth-child(n+8){grid-column:1}.dias{background-color:#add8e6}.curso{color:#fff;opacity:.8}.curso h3,.curso p{font-size:15px;font-weight:700}.curso p{opacity:.7}.visible{display:block}.oculto{display:none}
+/*# sourceMappingURL=main.5f8737a0.css.map*/

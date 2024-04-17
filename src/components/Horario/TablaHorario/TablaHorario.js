@@ -9,7 +9,7 @@ export {getColumn, getRow, getRowSpan};
 
 export default function TablaHorario ({cursos}) {
     return (
-        <div className="tablero" 
+        <div className="container-tabla-horario" 
             style={{
                 gridTemplateColumns: `auto repeat(${dias.length}, 1fr)`,
                 gridTemplateRows: `auto repeat(${horasIni.length+1}, auto)`       

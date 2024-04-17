@@ -1,0 +1,6 @@
+.Selectores {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .3vw;
+    gap: .4vw;
+}
