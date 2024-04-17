@@ -1,8 +1,8 @@
 .container-tabla-horario {
-    width: 80%;
     display: grid;
-    margin: 0 auto;
+    margin: 0 .5vw;
     gap: .3vw;
+    padding: .1vw;
 }
   
 .celda {

@@ -3,12 +3,13 @@
     justify-content: center; 
     align-items: center;
     padding: .4vw;
+    gap: .4vw;
 }
 
 .container-tablero {
-    width: 80%;
+    width: 70%;
 }
 
 .container-selectores {
-    width: 50%;
+    width: 30%;
 }

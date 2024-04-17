@@ -15,8 +15,8 @@ export default function Curso (props) {
                 display: mostrar        
             }}
         >
-            <p>{props.horaIni} - {props.horaFin}</p>
-            <h3>{props.nombre}</h3>
+            <div className='curso-hora'><p>{props.horaIni} - {props.horaFin}</p></div>
+            <div className='curso-nombre'><h3>{props.nombre}</h3></div> 
         </div>  
     );
   }

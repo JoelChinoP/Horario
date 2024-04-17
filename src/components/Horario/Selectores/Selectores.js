@@ -3,8 +3,11 @@ import "./Selectores.css";
 
 export default function Selectores ({selectores}) {
     return (
-        <div className="Selectores">
+        <>
+            <h3 className="titulo-selectores">Seleccionar Cursos</h3>
+            <div className="Selectores">
             {selectores}
-        </div>
+            </div>
+        </>
     );
 }

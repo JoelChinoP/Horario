@@ -1,18 +1,26 @@
 .curso {
     opacity: .95;
     color: white;
+    border-radius: .2vw;
 }
 
 .curso h3 {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1vw;
+    padding-left: .2vw;
+    padding-right: .2vw;
+    margin: 0; /* Elimina el margen entre el h3 y otros elementos */
 }
 
 .curso p {
     opacity: 0.7;
     font-weight: bold;
-    font-size: 15px;
+    margin: .3vw; /* Elimina el margen entre el h3 y otros elementos */
+    text-align: left;
+    font-size: .85vw;
 }
+
+
 
 .visible {
     display: block;

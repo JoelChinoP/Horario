@@ -1,3 +1,9 @@
+.titulo-selectores {
+    font-size: 2vw;
+    margin-bottom: .5vw;
+    color: #6576b4;
+}
+
 .Selectores {
     display: flex;
     flex-wrap: wrap;

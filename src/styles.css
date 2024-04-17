@@ -6,6 +6,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+  font-size: 3vw;
+  margin: 1vw;
+  color: #6576b4;
+}
+
 .App {
   text-align: center;
 }
