@@ -1,8 +1,13 @@
 .dias {
     background-color: lightsteelblue;
     padding: .2vw;
-    width: 11.5vw;
     font-size: 1vw;
     color: #2e2e2e;
     border-radius: .2vw;
 }
+
+@media screen and (max-width: 900px) {
+    .dias    {
+        font-size: 2vw;
+    }
+  }

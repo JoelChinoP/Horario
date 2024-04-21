@@ -7,7 +7,7 @@ import Dia from '../../Dia/Dia.js';
 export {getColumn, getRow, getRowSpan};
 
 
-export default function TablaHorario ({cursos}) {
+export default function TablaHorario ({teoria, laboratorio}) {
     return (
         <div className="container-tabla-horario" 
             style={{
@@ -19,7 +19,8 @@ export default function TablaHorario ({cursos}) {
                 {renderDias()}
                 {renderHoras()}
                 {(renderGridItem())}
-                {cursos}
+                {teoria}
+                {laboratorio}
         </div>
     );
 }

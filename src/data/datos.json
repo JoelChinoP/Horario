@@ -1,5 +1,5 @@
 {
-    "cursos": [
+    "CursosTeoria": [
         {
             "id": "BD",
             "nombre": "Base de Datos",
@@ -34,6 +34,21 @@
                             "horaFin": "17:30"
                         }
                     ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        },
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
                 }
             ]
         },
@@ -62,6 +77,16 @@
                             "horaFin": "18:30"
                         }
                     ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
                 }
             ]
         },
@@ -69,7 +94,7 @@
         {
             "id": "IPS",
             "nombre": "Ingeniería de Procesos y Software",
-            "color": "#A2B9B2",
+            "color": "#616f6a",
             "grupos": [
                 {
                     "grupo": "A",
@@ -100,6 +125,21 @@
                             "horaFin": "20:10"
                         }
                     ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "08:50",
+                            "horaFin": "11:30"
+                        },
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
                 }
             ]
         },
@@ -107,7 +147,7 @@
         {
             "id": "TC",
             "nombre": "Teoría de la Computación",
-            "color": "#f6b067",
+            "color": "#ac7b48",
             "grupos": [
                 {
                     "grupo": "A",
@@ -135,7 +175,7 @@
         {
             "id": "OM",
             "nombre": "Organización y Métodos",
-            "color": "#577F92",
+            "color": "#4c4ca5",
             "grupos": [
                 {
                     "grupo": "A",
@@ -156,6 +196,16 @@
                             "horaFin": "18:30"
                         }
                     ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "10:40",
+                            "horaFin": "13:10"
+                        }
+                    ]
                 }
             ]
         },
@@ -163,7 +213,7 @@
         {
             "id": "IO",
             "nombre": "Investigación de Operaciones",
-            "color": "#FF7F50",
+            "color": "#ff5a1d",
             "grupos": [
                 {
                     "grupo": "A",
@@ -194,7 +244,227 @@
                             "horaFin": "15:40"
                         }
                     ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "14:50",
+                            "horaFin": "16:40"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
                 }
+            ]
+        },
+
+        {
+            "id": "IA",
+            "nombre": "Inteligencia Artificial",
+            "color": "#196F3D",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "08:50",
+                            "horaFin": "11:30"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "17:40",
+                            "horaFin": "20:10"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "IN",
+            "nombre": "Inglés",
+            "color": "#14b814",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "10:40",
+                            "horaFin": "13:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "15:50",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "10:40",
+                            "horaFin": "13:10"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+
+
+
+
+
+    "CursosLaboratorios": [
+        {
+            "id": "LBD",
+            "nombre": "Lab - Base de Datos",
+            "color": "#577F92",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "LPS",
+            "nombre": "Lab - Programación de Sistemas",
+            "color": "#443453",
+            "grupos": [
+                
+            ]
+        },
+
+        {
+            "id": "LTC",
+            "nombre": "Lab - Teoría de la Computación",
+            "color": "#ac7b48",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "id": "LOM",
+            "nombre": "Lab - Organización y Métodos",
+            "color": "#4c4ca5",
+            "grupos": [
+                
+            ]
+        },
+
+        {
+            "id": "LIO",
+            "nombre": "Lab - Investigación de Operaciones",
+            "color": "#ff5a1d",
+            "grupos": [
+                
             ]
         }
     ]

@@ -1,8 +1,8 @@
 .horas {
     background-color: lightgreen;
     position: relative;
-    padding-left: .2vw;
-    padding-right: .2vw;
+    padding-left: .05vw;
+    padding-right: .05vw;
     color: #535353;
     width: 6.5vw;
     height: 1.4vw;
@@ -16,5 +16,13 @@
 /* Ajuste de posiciones de las horas */
   .horas:nth-child(n+8) {
     grid-column: 1; 
+}
+
+@media screen and (max-width: 900px) {
+  .horas {
+      height: 6vw;
+      font-size: 1.3vw;
+      width: 5vw;
+  }
 }
   

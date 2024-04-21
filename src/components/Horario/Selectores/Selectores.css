@@ -1,6 +1,7 @@
+
 .titulo-selectores {
-    font-size: 2vw;
-    margin-bottom: .5vw;
+    font-size: 1.5vw;
+    margin-bottom: .3vw;
     color: #6576b4;
 }
 
@@ -8,5 +9,32 @@
     display: flex;
     flex-wrap: wrap;
     padding: .3vw;
-    gap: .4vw;
+    gap: .5vw;
+    justify-content: center;
 }
+
+.link-pdf {
+    margin-top: .4vw;
+    font-size: 1.1vw;
+}
+
+.link-pdf a {
+    color: #6576b4; /* Color del texto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+.link-pdf a:hover {
+    color: #46527d; /* Cambia el color del texto al pasar el mouse */
+}
+
+/* Estilo para cuando el enlace está activo (por ejemplo, al hacer clic) */
+.link-pdf a:active {
+    color: #1e2336; /* Cambia el color del texto cuando está activo */
+}
+
+@media screen and (max-width: 900px) {
+    .titulo-selectores {
+        font-size: 2.5vw;
+    }
+  }

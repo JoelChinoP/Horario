@@ -1,12 +1,12 @@
 .curso {
-    opacity: .95;
+    opacity: .8;
     color: white;
     border-radius: .2vw;
 }
 
 .curso h3 {
-    font-weight: bold;
-    font-size: 1vw;
+    font-weight: 400;
+    font-size: 1.15vw;
     padding-left: .2vw;
     padding-right: .2vw;
     margin: 0; /* Elimina el margen entre el h3 y otros elementos */
@@ -20,7 +20,15 @@
     font-size: .85vw;
 }
 
-
+.curso-nombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+.curso-hora {
+    height: 20%;
+}
 
 .visible {
     display: block;
@@ -29,3 +37,13 @@
 .oculto {
     display: none;
 }
+
+@media screen and (max-width: 900px) {
+    .curso p {
+        font-size: 1.2vw;
+    }
+
+    .curso h3 {
+        font-size: 2.5vw;
+    }
+  }

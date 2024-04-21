@@ -10,25 +10,28 @@ import {getColumn, getRow, getRowSpan} from './TablaHorario/TablaHorario';
 import SelectCurso from '../SelectCurso/SelectCurso';
 import Curso from '../Curso/Curso';
 
-export default function Horario () {
-    const [baseDeDatos, setBaseDeDatos] = useState(datos.cursos);
-    const { cursos, selectores } = Render({ baseDeDatos });
+export default function Horario () {    
+    const [datosCursosTeo, setDatosCursosTeo] = useState(datos.CursosTeoria);
+    const [datosCursosLab, setDatosCursosLab] = useState(datos.CursosLaboratorios);
+    
+    const [cursosTeo, selectTeo] = Render({ baseDeDatos: datosCursosTeo });
+    const [cursosLab, selectLab] = Render({ baseDeDatos: datosCursosLab});
 
-    useEffect(() => {
-        // Simulando una solicitud de datos asíncrona
-        setBaseDeDatos(datos.cursos);
-    }, []);
+    // Simulando una solicitud de datos asíncrona
+    useEffect(() => { setDatosCursosTeo(datos.CursosTeoria); }, []);
+    useEffect(() => { setDatosCursosLab(datos.CursosLaboratorios); }, []); 
 
     return (
         <div className='container-horario'>
             <div className='container-tablero'>
-                <TablaHorario
-                    cursos={cursos}
-                />
+                <TablaHorario teoria={cursosTeo} laboratorio={cursosLab}/>
             </div>
             <div className='container-selectores'>
-                <Selectores
-                    selectores={selectores}
+                <Selectores 
+                tituloTeoria={"Seleccionar Cursos"}
+                selectTeoria={selectTeo} 
+                tituloLab={"Seleccionar Labs"}
+                selectLab={selectLab}
                 />
             </div>
         </div>
@@ -48,10 +51,12 @@ function Render({ baseDeDatos }) {
     const cursos = mapCursos(baseDeDatos, valoresSeleccionados, handleChange);
     const selectores = mapSelectores(baseDeDatos, valoresSeleccionados, handleChange);
 
+    /* ?????????????
     return {
         cursos: cursos,
         selectores: selectores
-    };
+    };*/
+    return [cursos, selectores];
 }
 
 function mapCursos(baseDeDatos, valoresSeleccionados, handleChange) {
@@ -87,45 +92,3 @@ function mapSelectores(baseDeDatos, valoresSeleccionados, handleChange) {
         />
     ));
 }
-
-
-/*
-function RenderCursos(baseDeDatos) {
-    return baseDeDatos.map((curso) => {
-      return curso.grupos.map((grupo) => {
-        return grupo.horarios.map((horario) => {
-          return (
-            <Curso
-              key={`${curso.id}-${grupo.grupo}`}
-              id={`${curso.id}-${grupo.grupo}`}
-              nombre={curso.nombre}
-              valorSeleccionado={"PS-B"}
-              backgroundColor={curso.color}
-              gridColumn={getColumn(horario.dia)}
-              gridRow={getRow(horario.horaIni)}
-              gridSpan={getRowSpan(horario.horaIni, horario.horaFin)}
-              horaIni={horario.horaIni}
-              horaFin={horario.horaFin}
-            />
-          );
-        });
-      });
-    });
-
-    // Nuevo componente para manejar la lógica de selección
-function useValoresSeleccionados() {
-    const [valoresSeleccionados, setValoresSeleccionados] = useState({});
-
-    const handleChange = (cursoId, valorSeleccionado) => {
-        setValoresSeleccionados(prevState => ({
-            ...prevState,
-            [cursoId]: valorSeleccionado
-        }));
-    };
-
-    return {
-        valoresSeleccionados,
-        handleChange
-    };
-}
-  }*/

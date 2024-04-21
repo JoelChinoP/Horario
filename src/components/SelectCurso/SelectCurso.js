@@ -4,7 +4,7 @@ import './SelectCurso.css';
 export default function SelectCurso ({curso, valorSeleccionado, handleChange}) {
     return (
         <div style={{backgroundColor: curso.color}} className='container-select'>
-            <div className='nombre-curso'><h3>{curso.nombre}</h3></div>
+            <div className='nombre-curso'>{curso.nombre}</div>
             <select value={valorSeleccionado} onChange={(event) => handleChange(event.target.value)}
                 className='select-curso'
             >
