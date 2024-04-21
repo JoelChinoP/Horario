@@ -44,13 +44,14 @@
 
 @media screen and (max-width: 900px) {
     .nombre-curso {
-        font-size: 2vw;
+        font-size: 2.4vw;
     }
 
     .container-select {
-        height: 10vw;
-        width: 20vw;
+        height: 11vw;
+        width: 22vw;
         margin: .5vw;
+        border-radius: 0.8vw;
     }
 
     .select-curso {

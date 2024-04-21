@@ -9,5 +9,6 @@
 @media screen and (max-width: 900px) {
     .dias    {
         font-size: 2vw;
+        border-radius: .5vw;
     }
   }

@@ -40,10 +40,14 @@
 
 @media screen and (max-width: 900px) {
     .curso p {
-        font-size: 1.2vw;
+        font-size: 2vw;
     }
 
     .curso h3 {
-        font-size: 2.5vw;
+        font-size: 2.7vw;
+    }
+
+    .curso {
+        border-radius: .7vw;
     }
   }

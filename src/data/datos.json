@@ -310,9 +310,9 @@
                     "grupo": "A",
                     "horarios": [
                         {
-                            "dia": "JUEVES",
-                            "horaIni": "10:40",
-                            "horaFin": "13:10"
+                            "dia": "MARTES",
+                            "horaIni": "07:00",
+                            "horaFin": "09:40"
                         }
                     ]
                 },
@@ -320,19 +320,9 @@
                     "grupo": "B",
                     "horarios": [
                         {
-                            "dia": "JUEVES",
-                            "horaIni": "15:50",
-                            "horaFin": "18:30"
-                        }
-                    ]
-                },
-                {
-                    "grupo": "C",
-                    "horarios": [
-                        {
-                            "dia": "JUEVES",
-                            "horaIni": "10:40",
-                            "horaFin": "13:10"
+                            "dia": "MARTES",
+                            "horaIni": "17:40",
+                            "horaFin": "20:10"
                         }
                     ]
                 }
