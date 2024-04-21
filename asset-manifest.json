@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Horario/static/css/main.dd8e09df.css",
-    "main.js": "/Horario/static/js/main.51c14321.js",
+    "main.css": "/Horario/static/css/main.d26b668e.css",
+    "main.js": "/Horario/static/js/main.bef8d299.js",
     "static/media/roboto-latin-900italic.woff": "/Horario/static/media/roboto-latin-900italic.c20d916c1a1b094c1cec.woff",
     "static/media/roboto-latin-300italic.woff": "/Horario/static/media/roboto-latin-300italic.bd5b7a13f2c52b531a2a.woff",
     "static/media/roboto-latin-500italic.woff": "/Horario/static/media/roboto-latin-500italic.18d00f739ff1e1c52db1.woff",
@@ -27,11 +27,11 @@
     "static/media/roboto-latin-400.woff2": "/Horario/static/media/roboto-latin-400.176f8f5bd5f02b3abfcf.woff2",
     "static/media/roboto-latin-900.woff2": "/Horario/static/media/roboto-latin-900.870c8c1486f76054301a.woff2",
     "index.html": "/Horario/index.html",
-    "main.dd8e09df.css.map": "/Horario/static/css/main.dd8e09df.css.map",
-    "main.51c14321.js.map": "/Horario/static/js/main.51c14321.js.map"
+    "main.d26b668e.css.map": "/Horario/static/css/main.d26b668e.css.map",
+    "main.bef8d299.js.map": "/Horario/static/js/main.bef8d299.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd8e09df.css",
-    "static/js/main.51c14321.js"
+    "static/css/main.d26b668e.css",
+    "static/js/main.bef8d299.js"
   ]
 }
