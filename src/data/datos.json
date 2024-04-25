@@ -388,7 +388,21 @@
             "nombre": "Lab - Programación de Sistemas",
             "color": "#443453",
             "grupos": [
-                
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        },
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                }
             ]
         },
 
@@ -431,9 +445,19 @@
                     "grupo": "D",
                     "horarios": [
                         {
-                            "dia": "VIERNES",
-                            "horaIni": "14:00",
-                            "horaFin": "15:40"
+                            "dia": "JUEVES",
+                            "horaIni": "18:30",
+                            "horaFin": "20:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
                         }
                     ]
                 }
@@ -445,7 +469,46 @@
             "nombre": "Lab - Organización y Métodos",
             "color": "#4c4ca5",
             "grupos": [
-                
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "08:50",
+                            "horaFin": "10:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                }
             ]
         },
 
@@ -454,7 +517,36 @@
             "nombre": "Lab - Investigación de Operaciones",
             "color": "#ff5a1d",
             "grupos": [
-                
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "18:30",
+                            "horaFin": "20:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                }
             ]
         }
     ]
