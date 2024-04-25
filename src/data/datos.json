@@ -355,8 +355,8 @@
                     "horarios": [
                         {
                             "dia": "LUNES",
-                            "horaIni": "12:20",
-                            "horaFin": "14:00"
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
                         }
                     ]
                 },
@@ -365,18 +365,28 @@
                     "horarios": [
                         {
                             "dia": "LUNES",
-                            "horaIni": "14:00",
-                            "horaFin": "15:40"
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
                         }
                     ]
                 },
                 {
-                    "grupo": "D",
+                    "grupo": "E",
                     "horarios": [
                         {
-                            "dia": "MARTES",
+                            "dia": "LUNES",
                             "horaIni": "10:40",
                             "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
                         }
                     ]
                 }
@@ -400,6 +410,81 @@
                             "dia": "MARTES",
                             "horaIni": "07:00",
                             "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "18:30",
+                            "horaFin": "21:10"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "18:30",
+                            "horaFin": "21:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "18:30",
+                            "horaFin": "21:10"
+                        },
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "18:30",
+                            "horaFin": "21:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        },
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        },
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "14:50",
+                            "horaFin": "16:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "09:40",
+                            "horaFin": "11:30"
+                        },
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:3    0"
                         }
                     ]
                 }
@@ -503,6 +588,16 @@
                     "grupo": "D",
                     "horarios": [
                         {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
                             "dia": "MIERCOLES",
                             "horaIni": "16:40",
                             "horaFin": "18:30"
@@ -544,6 +639,36 @@
                             "dia": "VIERNES",
                             "horaIni": "07:00",
                             "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "17:40",
+                            "horaFin": "19:20"
                         }
                     ]
                 }

@@ -21,7 +21,7 @@ export default function Selectores ({tituloTeoria, selectTeoria, tituloLab, sele
                 {selectLab}
                 </div>
                 <div className="link-pdf">
-                    <a href="https://youtu.be/dQw4w9WgXcQ" 
+                    <a href="https://docs.google.com/spreadsheets/d/1evnCs9MtT6VBxbz2ZE8CA_ZQa-OT8Nn2/edit#gid=1542532281" 
                     target="_blank">link: horarios laboratorio</a>
                 </div>
             </div>
