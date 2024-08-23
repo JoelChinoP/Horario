@@ -10,7 +10,7 @@ export default function Selectores ({tituloTeoria, selectTeoria, tituloLab, sele
                 {selectTeoria}
                 </div>
                 <div className="link-pdf">
-                    <a href="https://drive.google.com/file/d/1F46vMoGYjbDPv2ydWgu_ml1AsEMm3Ukl/view?usp=sharing" 
+                    <a href="https://drive.google.com/file/d/1gCI9XUsrTC3gMIW_BIGYjxlBmleISE8p/view?usp=sharing" 
                     target="_blank">link: horarios teoría</a>
                 </div>
             </div>
@@ -21,7 +21,7 @@ export default function Selectores ({tituloTeoria, selectTeoria, tituloLab, sele
                 {selectLab}
                 </div>
                 <div className="link-pdf">
-                    <a href="https://docs.google.com/spreadsheets/d/1evnCs9MtT6VBxbz2ZE8CA_ZQa-OT8Nn2/edit#gid=1542532281" 
+                    <a href="https://www.youtube.com/watch?v=H0YSd6lMxRk" 
                     target="_blank">link: horarios laboratorio</a>
                 </div>
             </div>

@@ -6,7 +6,7 @@
 
 .curso h3 {
     font-weight: 400;
-    font-size: 1.15vw;
+    font-size: 1vw; /*1.15*/
     padding-left: .2vw;
     padding-right: .2vw;
     margin: 0; /* Elimina el margen entre el h3 y otros elementos */

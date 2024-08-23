@@ -21,7 +21,8 @@
 @media screen and (max-width: 900px) {
   .horas {
       height: 6.5vw;
-      font-size: 1.3vw;
+      font-size: 1.75vw;
+      line-height: 0.85;
       width: 5vw;
       border-radius: .7vw;
   }
