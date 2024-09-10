@@ -331,11 +331,6 @@
                             "dia": "MARTES",
                             "horaIni": "11:30",
                             "horaFin": "14:00"
-                        },
-                        {
-                            "dia": "JUEVES",
-                            "horaIni": "07:00",
-                            "horaFin": "09:40"
                         }
                     ]
                 },
@@ -346,11 +341,6 @@
                             "dia": "LUNES",
                             "horaIni": "16:40",
                             "horaFin": "19:20"
-                        },
-                        {
-                            "dia": "JUEVES",
-                            "horaIni": "16:40",
-                            "horaFin": "19:20"
                         }
                     ]
                 }
@@ -359,13 +349,357 @@
     ],
     "CursosLaboratorios": [
         {
-            "id": "LBD",
-            "nombre": "Laboratorio",
+            "id": "LBSO",
+            "nombre": "SISTEMAS OPERATIVOS",
             "color": "#577F92",
             "grupos": [
                 {
-                    "grupo": " #",
-                    "horarios": []
+                    "grupo": " B",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "14:50",
+                            "horaFin": "16:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "11:30",
+                            "horaFin": "13:10"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "11:30",
+                            "horaFin": "13:10"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "LBRE",
+            "nombre": "Redes y Comunicación de Datos",
+            "color": "#577F42",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "18:30",
+                            "horaFin": "20:10"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "08:50",
+                            "horaFin": "10:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "LBTO",
+            "nombre": "TECNOLOGIA DE OBJETOS ",
+            "color": "#577F41",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "17:40",
+                            "horaFin": "19:20"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "08:50",
+                            "horaFin": "10:30"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "LBCS",
+            "nombre": "Construcción de Software",
+            "color": "#578F41",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "08:50",
+                            "horaFin": "10:30"
+                        },
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "14:00",
+                            "horaFin": "15:40"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:30"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "15:50",
+                            "horaFin": "17:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "08:50",
+                            "horaFin": "10:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        },
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "LBMN",
+            "nombre": "Métodos Númericos",
+            "color": "#567F41",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "18:30",
+                            "horaFin": "20:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "E",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "F",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "07:00",
+                            "horaFin": "08:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "G",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "14:50",
+                            "horaFin": "16:40"
+                        }
+                    ]
                 }
             ]
         }
