@@ -702,6 +702,102 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "LBIDSE",
+            "nombre": "Introducción al Desarrollo de Software de Entretenimiento",
+            "color": "#567F41",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "10:40",
+                            "horaFin": "12:20"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "14:50",
+                            "horaFin": "16:40"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "16:40",
+                            "horaFin": "18:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                }
+               
+            ]
+        },
+        {
+            "id": "AFEV",
+            "nombre": "Lab - Aspectos Formales",
+            "color": "#196F3D",
+            "grupos": [
+                {   
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "9:40",
+                            "horaFin": "11:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "13:10",
+                            "horaFin": "14:50"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "C",
+                    "horarios": [
+                        {
+                            "dia": "JUEVES",
+                            "horaIni": "9:40",
+                            "horaFin": "11:30"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "D",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "12:20",
+                            "horaFin": "14:00"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
