@@ -350,8 +350,8 @@
     "CursosLaboratorios": [
         {
             "id": "LBSO",
-            "nombre": "SISTEMAS OPERATIVOS",
-            "color": "#577F92",
+            "nombre": "Lab - Sistemas Operativos",
+            "color": "#616f6a",
             "grupos": [
                 {
                     "grupo": " B",
@@ -408,8 +408,8 @@
         },
         {
             "id": "LBRE",
-            "nombre": "Redes y Comunicación de Datos",
-            "color": "#577F42",
+            "nombre": "Lab - Redes y Comunicación de Datos",
+            "color": "#577F92",
             "grupos": [
                 {
                     "grupo": "A",
@@ -476,8 +476,8 @@
         },
         {
             "id": "LBTO",
-            "nombre": "TECNOLOGIA DE OBJETOS ",
-            "color": "#577F41",
+            "nombre": "Lab - Técnología de Objetos",
+            "color": "#443453",
             "grupos": [
                 {
                     "grupo": "A",
@@ -544,8 +544,8 @@
         },
         {
             "id": "LBCS",
-            "nombre": "Construcción de Software",
-            "color": "#578F41",
+            "nombre": "Lab - Construcción de Software",
+            "color": "#4c4ca5",
             "grupos": [
                 {
                     "grupo": "A",
@@ -627,8 +627,8 @@
         },
         {
             "id": "LBMN",
-            "nombre": "Métodos Númericos",
-            "color": "#567F41",
+            "nombre": "Lab - Métodos Númericos",
+            "color": "#ff5a1d",
             "grupos": [
                 {
                     "grupo": "A",
@@ -705,8 +705,8 @@
         },
         {
             "id": "LBIDSE",
-            "nombre": "Introducción al Desarrollo de Software de Entretenimiento",
-            "color": "#567F41",
+            "nombre": "Lab - Introduccion al D. de S. y Entretenimiento",
+            "color": "blue",
             "grupos": [
                 {
                     "grupo": "A",
@@ -782,7 +782,7 @@
                     "horarios": [
                         {
                             "dia": "JUEVES",
-                            "horaIni": "9:40",
+                            "horaIni": "09:40",
                             "horaFin": "11:30"
                         }
                     ]
