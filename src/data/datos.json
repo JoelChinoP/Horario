@@ -228,7 +228,105 @@
                     ]
                 }
             ]
-        } 
+        } ,
+        {
+            "id": "SI",
+            "nombre": "SEGURIDAD INFORMATICA",
+            "color": "#228b22",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "10:40",
+                            "horaFin": "13:10"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "14:50",
+                            "horaFin": "17:30"
+                        }
+                    ]
+                }
+            ]
+        } ,
+        {
+            "id": "CG",
+            "nombre": "COMPUTACION GRAFICA",
+            "color": "#228b22",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "VIERNES",
+                            "horaIni": "07:00",
+                            "horaFin": "09:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "14:00",
+                            "horaFin": "16:40"
+                        }
+                    ]
+                }
+            ]
+        }  ,
+        {
+            "id": "ING",
+            "nombre": "INGLES",
+            "color": "#228b22",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "MARTES",
+                            "horaIni": "07:00",
+                            "horaFin": "09:40"
+                        }
+                    ]
+                }
+            ]
+        } ,
+        {
+            "id": "ETI",
+            "nombre": "ETICA",
+            "color": "#228b22",
+            "grupos": [
+                {
+                    "grupo": "A",
+                    "horarios": [
+                        {
+                            "dia": "LUNES",
+                            "horaIni": "07:00",
+                            "horaFin": "09:40"
+                        }
+                    ]
+                },
+                {
+                    "grupo": "B",
+                    "horarios": [
+                        {
+                            "dia": "MIERCOLES",
+                            "horaIni": "17:40",
+                            "horaFin": "20:10"
+                        }
+                    ]
+                }
+            ]
+        }  
     ],
     "CursosLaboratorios": [
     ]
